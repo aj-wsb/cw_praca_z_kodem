@@ -1,0 +1,7 @@
+cw_praca_z_kodem
+|--.github
+ |--workflows
+ |--github-actions-demo.yml
+|--app.py
+|--requiremets.txt
+|--venv
