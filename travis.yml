@@ -1,0 +1,9 @@
+language: python
+python: "3.9"
+services: docker
+install:
+- pip install -r requirements.txt
+script:
+- echo ‘start docker build’
+- docker build -t flask-app .
+- echo ‘finish docker build’
